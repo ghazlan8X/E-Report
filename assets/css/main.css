@@ -14,7 +14,7 @@
 }
 
 main {
-    padding-top: 56px;
+    padding-top: 60px;
 }
 
 /* hero */
@@ -47,15 +47,16 @@ main {
 
 /* stats */
 .stats-box {
-    position: absolute;
+    position: relative;
     width: 1200px;
     height: 200px;
     background-color: #fff;
     border: 0.5px solid #000;
     border-radius: 50px;
     padding: 5px;
-    bottom: 50px;
-    z-index: 2;
+    margin: 0 auto;
+    margin-top: -250px;
+    z-index: 3;
 }
 
 .stats-row {
